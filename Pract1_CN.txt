@@ -1,0 +1,41 @@
+Practical 1- Using Windows-cmd, execute following networking commands and note the output: ping, traceroute, netstat, arp,ipconfig, Getmac, hostname, NSLookUp, pathping, SystemInfo 
+
+1. ping:
+Command: ping google.com
+Meaning: Tests network connectivity between your computer and a target host; shows packet loss and response time.
+
+2. tracert:
+Command: tracert google.com
+Meaning: Traces the route packets take to reach a destination; displays each hop on the path.
+
+3. netstat:
+Command: netstat -ano
+Meaning: Shows active network connections, listening ports, protocol statistics, and the process IDs (PIDs) using them.
+
+4. arp:
+Command: arp -a
+Meaning: Displays the ARP table, showing IP addresses mapped to MAC addresses on the local network.
+
+5. ipconfig:
+Command: ipconfig /all
+Meaning: Shows detailed network configuration including IP address, subnet mask, gateway, DNS, MAC address, and adapter information.
+
+6. getmac:
+Command: getmac /v /fo list
+Meaning: Displays MAC addresses of network adapters, with verbose details.
+
+7. hostname:
+Command: hostname
+Meaning: Displays the computer’s device name on the network.
+
+8. nslookup:
+Command: nslookup google.com
+Meaning: Queries DNS to find the IP address of a domain or perform DNS diagnostics.
+
+9. pathping:
+Command: pathping google.com
+Meaning: Combines ping and tracert to measure network latency and packet loss along the path.
+
+10. systeminfo:
+Command: systeminfo
+Meaning: Shows detailed system information such as OS version, hardware specs, BIOS, memory, and network configuration.
